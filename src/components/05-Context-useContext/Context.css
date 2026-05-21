@@ -1,0 +1,152 @@
+.context-container {
+  border: 2px solid #9b59b6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  background: white;
+}
+
+.context-container h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.context-box {
+  background: #f4f0f7;
+  border: 1px solid #d7bde2;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.context-box h4 {
+  color: #9b59b6;
+  margin: 0 0 12px 0;
+  border-bottom: 2px solid #9b59b6;
+  padding-bottom: 8px;
+}
+
+.context-box p {
+  color: #34495e;
+  margin: 8px 0;
+}
+
+.context-box button {
+  padding: 8px 15px;
+  background: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.context-box button:hover {
+  background: #8e44ad;
+}
+
+.context-box label {
+  display: block;
+  margin: 10px 0;
+  color: #34495e;
+  cursor: pointer;
+}
+
+.context-box input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.settings-display {
+  background: white;
+  border: 1px solid #d7bde2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.settings-display p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.context-demo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.prop-drilling-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.without-context,
+.with-context {
+  background: #f8f9f9;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.without-context h5,
+.with-context h5 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 0.95rem;
+}
+
+.without-context pre,
+.with-context pre {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.concept-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #f8f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #9b59b6;
+}
+
+.concept-section h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.concept-section p {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.example-code {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
+.example-code pre {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .prop-drilling-comparison {
+    grid-template-columns: 1fr;
+  }
+}

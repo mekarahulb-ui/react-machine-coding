@@ -1,0 +1,139 @@
+.effects-container {
+  border: 2px solid #f39c12;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  background: white;
+}
+
+.effects-container h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.effect-example {
+  background: #fffbf0;
+  border: 1px solid #ffe6cc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.effect-example h4 {
+  color: #f39c12;
+  margin: 0 0 12px 0;
+  border-bottom: 2px solid #f39c12;
+  padding-bottom: 8px;
+}
+
+.effect-example p {
+  color: #34495e;
+  margin: 10px 0;
+}
+
+.effect-example strong {
+  color: #f39c12;
+}
+
+.effect-example button {
+  padding: 8px 15px;
+  margin: 5px;
+  background: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.effect-example button:hover {
+  background: #e67e22;
+}
+
+.log {
+  background: white;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.log h5 {
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+  font-size: 0.9rem;
+}
+
+.log p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #f39c12;
+  font-style: italic;
+}
+
+.examples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.concept-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #f8f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #f39c12;
+}
+
+.concept-section h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.concept-section p {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.concept-section ul {
+  color: #34495e;
+  margin-left: 20px;
+}
+
+.concept-section li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.concept-section code {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+.example-code {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
+.example-code pre {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
